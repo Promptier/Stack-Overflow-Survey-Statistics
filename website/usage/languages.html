@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css"> 
+    <link rel="icon" type="image/png" href="glider.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+   <div class="nav div dropdown-item">
+    <div class="dropdown-content"></div>
+   </div>
+   <div class="nav div dropdown-item">
+    <div class="dropdown-content"></div>
+   </div>
+   <div class="nav div dropdown-item">
+    <div class="dropdown-content"></div>
+   </div> 
+
+    <title>Document</title>
+</head>
+<body>
+  <div class = "wrapper">
+      <header>
+          <a class = "legend" href="#" target = "_blank">
+            <img src="../images/glider.png" alt="Legend Icon">
+            
+          <div id="social-media">
+
+            <a href="#" target="_blank" class="btn btn-outline-dark" role="button">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCGs6H7-O8Kwhkjq2pf3GOYw" target="_blank" class="btn btn-outline-danger" role="button">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="#" class="btn btn-outline-primary" role="button">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+
+          </div>
+            <div class="navbar">
+              <ul>
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">Usage</a>
+                  <div class="dropdown-content">
+                    <a href="languages.html">Languages</a>
+                    <a href="web-frameworks.html">Web Frameworks</a>
+                    <a href="other-tools.html">Other Tools</a>
+                    <a href = "databases.html">Databases</a>
+                    <a href="#">IDE's</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">Popularity</a>
+                  <div class="dropdown-content">
+                    <a href="#">Languages</a>
+                    <a href="#">Web Frameworks</a>
+                    <a href="#">Other Frameworks</a>
+                    <a href = "#">Databases</a>
+                    <a href="#">IDE's</a>
+                  </div>
+                </li>
+              </ul>
+              <a id="#" href="#">About</a>
+          </div>
+        </header>
+        <article>
+
+        <canvas id="chartAll" height="500" width="900"></canvas>>
+        <h5><a href="https://insights.stackoverflow.com/survey" target="_blank">Data</a> from annual Stack Overflow Surveys. Around 8,000 developers are surveyed starting in 2013 and the survey size has gradually increased year by year. 2023 had 87,000 response, the majority labeled themselved as professional developers, However, this also include those learning to code.</h5>
+        <canvas id="chartProfessionals" height="500" width="900"></canvas>>
+        <h5>This chart is only those who labeled themselves as professional developers, so this may be more valuable data to understand where the industry is heading. Around 5,000 responses from the top chart were those "learning to code", likely being taught whichever mandatory language in school, or new trending language on Reddit. I personally see this as junk data and the responses from professionals are most valuable. Therefore I have made a second chart.</h5>
+        </article>
+    </div>  
+    <script type="module" src = "language_chart.js"></script>
+    <script type="module" src = "language_chart_professional.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+</html>
