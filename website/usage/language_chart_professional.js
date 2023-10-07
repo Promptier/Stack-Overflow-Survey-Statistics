@@ -52,6 +52,13 @@ fetch("../../Scraper/language-usage-professional.json")
         hidden: true,
       },
       {
+        label: 'HTML/CSS',
+        data: [null,67,63,62,56,55,53],
+        borderColor: 'brown',
+        fill: false,
+        hidden: true,
+      },
+      {
         label: 'SQL',
         data: sqlUsageData,
         borderColor: 'green',
