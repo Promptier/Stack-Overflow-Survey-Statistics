@@ -15,7 +15,7 @@ fetch("../../Scraper/language-usage-professional.json")
   let rustUsageData = [];
   let sqlUsageData = [];
 
-  for (let year = 2017; year <= 2023; year++) {
+  for (let year = 2017; year <= 2024; year++) {
     pythonUsageData.push(data[year.toString()]['Python']);
     javascriptUsageData.push(data[year.toString()]['JavaScript']);
     typescriptUsageData.push(data[year.toString()]['TypeScript']);
@@ -35,7 +35,7 @@ fetch("../../Scraper/language-usage-professional.json")
   chart = new Chart(myChart, {
     type:'line',
     data:{
-      labels:['2017','2018','2019','2020','2021','2022','2023'],
+      labels:['2017','2018','2019','2020','2021','2022','2023','2024'],
       datasets: 
       [{
         label: 'Python',
@@ -53,7 +53,7 @@ fetch("../../Scraper/language-usage-professional.json")
       },
       {
         label: 'HTML/CSS',
-        data: [null,67,63,62,56,55,53],
+        data: [null,67,63,62,56,55,53,53],
         borderColor: 'brown',
         fill: false,
         hidden: true,
