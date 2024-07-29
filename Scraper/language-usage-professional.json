@@ -243,5 +243,25 @@
         "Flow": 0.25,
         "APL": 0.16,
         "Raku": 0.14
+    },
+    "2024": {
+        "Javascript": 64.6,
+        "SQL": 54.1,
+        "Python": 46.9,
+        "Typescript": 43.4,
+        "Bash/Shell": 43.2,
+        "Java": 30,
+        "C#": 28.8,
+        "C++": 20.3,
+        "PHP": 18.7,
+        "C": 16.9,
+        "Go": 14.4,
+        "Powershell": 14,
+        "Rust": 11.7,
+        "Kotlin": 9.9,
+        "Dart": 6,
+        "Ruby": 5.8,
+        "Lua": 5.4,
+        "Swift": 4.9
     }
 }
