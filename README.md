@@ -11,4 +11,3 @@ As programmers we must choose the right decisions when deciding between learning
 - [x] Create chart.js for langauge usage of 2013-2022
 - [x] Host web page on Github Pages
  
-I also made a video using this on Youtube [here]() where I analyzed Stack Overflow Survey 2023.
